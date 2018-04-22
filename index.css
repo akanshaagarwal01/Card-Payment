@@ -1,0 +1,77 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 25px;
+}
+
+.card {
+  width: 20%;
+  position: relative;
+  margin: auto;
+  margin: auto;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* #cardDetails {
+} */
+
+label {
+  color: #aaaaaa;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.inp {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.inp:focus {
+  outline: none;
+  border-bottom: 1px solid #006eff;
+}
+
+.cardNum {
+  width: 100%;
+}
+
+select {
+  color: #aaaaaa;
+}
+
+.cvv {
+  width: 40%;
+  float: right;
+}
+
+.submit {
+  background-color: orangered;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border: none;
+}
+
+.disabled {
+  background-color: #10101096;
+  cursor: not-allowed;
+}
+
+.cardTypeImage {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 70px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.cardTypeImage img {
+  width: 70px;
+  height: 35px;
+}
