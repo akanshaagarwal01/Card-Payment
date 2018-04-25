@@ -1,0 +1,185 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  width: 25%;
+  position: relative;
+  margin: auto;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+label {
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.inp {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.inp:focus {
+  outline: none;
+  border-bottom: 1px solid #006eff;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.cardNum {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+select {
+  color: #aaaaaa;
+}
+
+.cvv {
+  width: 40%;
+  float: right;
+  background-color: #ffffff;
+}
+
+.submit {
+  background-color: orangered;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border: none;
+}
+
+.disabled {
+  background-color: #10101096;
+  cursor: not-allowed;
+}
+
+.editDisabled {
+  cursor: not-allowed;
+  color: #aaaaaa;
+  background-color: #ffffff;
+  border: none;
+  font-size: 110%;
+}
+
+.cardTypeImage {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 70px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.cardTypeImage img {
+  width: 70px;
+  height: 35px;
+}
+
+#savedCards {
+  margin-top: 50px;
+}
+
+.cardContainer {
+  position: relative;
+  border: 1px solid #aaaaaa;
+  background-color: white;
+  width: 35%;
+  height: 120px;
+  margin: auto;
+  transition: all 1s ease-in-out;
+}
+
+.toBeEdited {
+  border: 2px solid #006eff;
+  background-color: white;
+  height: 180px;
+  width: 40%;
+  margin: auto;
+  position: relative;
+}
+
+.ed {
+  font-size: 24px;
+}
+
+.done {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  right: 190px;
+  cursor: pointer;
+}
+
+.cancel {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 150px;
+  cursor: pointer;
+}
+
+.cardTypeDisplay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.cardImageDisplay {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  z-index: 1000;
+}
+
+.cardImg {
+  width: 50px;
+  height: 25px;
+}
+
+.cardNumDisplay {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.cardEditDisplay {
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+
+.editCard {
+  color: #006eff;
+  background-color: #ffffff;
+  border: none;
+  font-size: 110%;
+  cursor: pointer;
+}
+
+.cardDeleteDisplay {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.cardDeleteDisplay img {
+  width: 20px;
+  height: 25px;
+}
